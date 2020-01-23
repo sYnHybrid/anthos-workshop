@@ -54,7 +54,8 @@ if [ $? -ne 0 ]; then
 	--node-count=$NODE_COUNT \
 	--node-size=$NODE_SIZE \
 	--admin-access=0.0.0.0/0 \
-	--yes
+	--yes \
+	--vpc=psanthosnetwork
     # --master-size $MASTER_SIZE --master-count 3
 else
 	echo "${REMOTE_CLUSTER_NAME} already exists"
