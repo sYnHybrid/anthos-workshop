@@ -34,7 +34,7 @@
     export INSTANCE_CIDR=$INSTANCE_IP/32
 
 # Variables for config manager 
-    export OPERATOR_YAML_LOCATION=$(gsutil cat gs://anthos-workshop/cfg-op-loc)
+#   export OPERATOR_YAML_LOCATION=$(gsutil cat gs://anthos-workshop/cfg-op-loc)
 
 
 # Variables for istio
